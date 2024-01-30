@@ -148,7 +148,7 @@
     <value>关于</value>
   </data>
   <data name="Settings_AboutDescription.Text" xml:space="preserve">
-    <value>TODO: Replace with your app description.</value>
+    <value>一个用于管理RPE文件的小工具</value>
   </data>
   <data name="SettingsPage_PrivacyTermsLink.Content" xml:space="preserve">
     <value>隐私声明</value>
@@ -163,6 +163,9 @@
     <value>请选择PhiEdit.exe所在的文件夹目录</value>
   </data>
   <data name="Settings_RPERelated.Text" xml:space="preserve">
-    <value>RPE设置</value>
+    <value>RPE相关</value>
+  </data>
+  <data name="Settings_RPEPathSelectButton.Content" xml:space="preserve">
+    <value>选择RPE目录</value>
   </data>
 </root>
