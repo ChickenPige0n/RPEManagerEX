@@ -10,15 +10,19 @@
     <Page.Resources>
         <helpers:EnumToBooleanConverter x:Key="EnumToBooleanConverter" />
     </Page.Resources>
+
+
+
     <Grid>
+
         <StackPanel
             x:Name="ContentArea">
             <TextBlock x:Uid="Settings_RPERelated" Style="{ThemeResource SubtitleTextBlockStyle}"/>
             <StackPanel Margin="{StaticResource SmallTopBottomMargin}">
                 <TextBlock x:Uid="Settings_RPEPath"/>
                 
-                <StackPanel Orientation="Horizontal" Margin="{StaticResource XSmallTopMargin}">
-                    <TextBox x:Uid="Settings_RPEPathBox"/>
+                <StackPanel Orientation="Horizontal" Margin="{StaticResource XSmallLeftTopRightBottomMargin}">
+                    <TextBox x:Uid="Settings_RPEPathBox" Text="{x:Bind ViewModel.RpePath,Mode=TwoWay}" Margin="{StaticResource XSmallLeftTopRightBottomMargin}"/>
                     <Button x:Uid="Settings_RPEPathSelectButton" Command="{x:Bind ViewModel.SelectRPEPathCommand}"/>
                 </StackPanel>
             </StackPanel>
