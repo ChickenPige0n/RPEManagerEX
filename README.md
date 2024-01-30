@@ -1,4 +1,8 @@
-﻿*Recommended Markdown Viewer: [Markdown Editor](https://marketplace.visualstudio.com/items?itemName=MadsKristensen.MarkdownEditor2)*
+# !Extremely WIP!
+As you can see below, this project is still in a very primary stage without any functions.
+ 
+ 
+ *Recommended Markdown Viewer: [Markdown Editor](https://marketplace.visualstudio.com/items?itemName=MadsKristensen.MarkdownEditor2)*
 
 ## Getting Started
 
