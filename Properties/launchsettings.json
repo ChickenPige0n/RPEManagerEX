@@ -1,0 +1,10 @@
+﻿{
+    "profiles": {
+      "RPEManagerEX (Package)": {
+        "commandName": "MsixPackage"
+      },
+      "RPEManagerEX (Unpackaged)": {
+        "commandName": "Project"
+      }
+    }
+}
